@@ -26,6 +26,10 @@ function RouteComponent() {
           Conheça a história de cientistas negros brilhantes que fizeram descobertas revolucionárias 
           e inspiraram gerações com suas contribuições para a ciência.
         </p>
+        <p className="text-muted-foreground text-sm italic">
+          Projeto desenvolvido em conjunto com os alunos da EMEB Profª Hebe de Almeida Leite Cardoso 
+          (Novo Horizonte - SP) sob a orientação do Prof° Leonardo Rocca.
+        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">

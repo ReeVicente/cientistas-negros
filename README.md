@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# Cientistas Negros que Mudaram o Mundo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Conheça a história de cientistas negros brilhantes que fizeram descobertas revolucionárias e inspiraram gerações com suas contribuições para a ciência.
 
-Currently, two official plugins are available:
+Projeto desenvolvido em conjunto com os alunos da EMEB Profª Hebe de Almeida Leite Cardoso (Novo Horizonte - SP) sob a orientação do Prof° Leonardo Rocca.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido utilizando React + TypeScript + Vite para criar uma experiência interativa de aprendizado sobre estas importantes personalidades da ciência.
 
-## Expanding the ESLint configuration
+## Sobre o Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Uma plataforma web que destaca as conquistas e contribuições de cientistas negros ao longo da história, celebrando suas descobertas e inspirando novas gerações.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- React
+- TypeScript
+- Vite
+- ESLint
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Configuração do Ambiente de Desenvolvimento
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Para iniciar o desenvolvimento:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clone o repositório
+2. Instale as dependências: `npm install`
+3. Execute o projeto: `npm run dev`
+
+## Configuração do ESLint
+
+Para projetos em produção, recomendamos atualizar a configuração do ESLint:
