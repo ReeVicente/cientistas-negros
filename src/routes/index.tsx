@@ -32,6 +32,17 @@ function RouteComponent() {
         </p>
       </div>
 
+      <div className="w-full aspect-video max-w-3xl mx-auto">
+        <video
+          className="w-full h-full rounded-lg shadow-lg"
+          controls
+          preload="metadata"
+        >
+          <source src="/introducao.mp4" type="video/mp4" />
+          Seu navegador não suporta a reprodução de vídeos.
+        </video>
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
         {scientists.map((scientist) => (
           <Link
